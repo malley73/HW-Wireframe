@@ -1,0 +1,69 @@
+h1 {
+    background-color: black;
+    color: beige;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+a {
+    color: red;
+}
+
+#bio-pic,
+#main-bio,
+#contact-info {
+    float: left;
+    padding-right: 10px;
+}
+
+#main-bio {
+    width: 70%;
+}
+
+#box {
+    clear: both;
+    overflow: auto;
+    background-color: #1E5792;
+    width: 400px;
+    height: 440px;
+    margin: 10px 30px 20px 50px;
+    color: #fff;
+    padding: 25px 10px 30px 20px;
+    border-style: solid;
+    border-width: 22px;
+    border-color: #113152;
+}
+
+#box1 {
+    width: 150px;
+    height: 100px;
+    background-color: lightgrey;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#box2 {
+    position: relative;
+    height: 200px;
+    width:1000px;
+    background-color: lightgrey;
+}
+
+#box3 {
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    bottom: 0px;
+    right: -20px;
+    background-color: grey;
+}
+p{
+	width:1000px;
+}
